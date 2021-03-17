@@ -1,13 +1,16 @@
 
 ///Strings
 //First, declare variable named firstName.
-
+var firstName; 
 //Assign firstName to a string value of your first name.
+firstName = 'Layla'
 
 //Declare another variable named lastName and assign it the value of your last name.
+var lastName = 'Armstrong'
 
 //Then declare another variable named fullName and assign it to the current value of firstName and lastName and have the joined values separated with a space character.
-
+var fullName = firstName + ' ' + lastName
+console.log(fullName)
 //Remember that computer languages will not add the space character for you so how would you do that manually?
 
 
@@ -19,12 +22,13 @@
 
 //Numbers
 //Declare a variable named luckyNumber.
+var luckyNumber;
 
 //Assign luckyNumber to a number of your choice.
-
+luckyNumber = 100000
 //Declare another variable named luckyNumberTimes2 and assign it the value of luckyNumber multiplied by 2.
 
-
+var luckyNumberTimes2 = luckyNumber * 2;
 
 
 
@@ -36,10 +40,10 @@
 
 //Booleans
 //Declare a variable named myBool and assign it the value of true.
-
+var myBool = true;
 
 //Then, declare another named isEqualTo and assign it the value of strictly comparing luckyNumber and luckyNumberTimes2.
-
+var isEqualTo = luckyNumber === luckyNumberTimes2
 
 
 
@@ -68,8 +72,8 @@ factorial(8); // => 40320 (8 * 7 * 6 * 5 * 4 * 3 * 2 * 1)
 function factorial(number){
 //CODE BELOW HERE
 
-
-
+//Input: number
+//Output: number
 //CODE ABOVE HERE
 }
 
